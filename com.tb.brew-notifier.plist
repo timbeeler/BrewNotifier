@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>com.beeler.brew-notifier</string>
+	<string>com.tb.brew-notifier</string>
 	<key>ProgramArguments</key>
 	<array>
 		<string>/usr/local/bin/brew-notifier</string>
