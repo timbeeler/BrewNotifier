@@ -1,21 +1,18 @@
-<h1>Brew Notifier</h1>
-<h3>Description of Script:</h3>
+# Brew Notifier
+_**Description**_
+This script was created to notify me of "home brew" updates
 
-<p>This script was created to notify me of "home brew" updates</p>
 
-=======
+**Variables**
+- None
 
-<h3>Script Variables </h3>
-<p>None</p>
+**Requirements**
 
-<ul>
-<li>terminal-notifier<i> brew install terminal-notifier</i></li>
-</ul>
+- terminal-notifier   
 
-=======
+    ```brew install terminal-notifier```
 
-<h3>File descriptions and default locations:</h3>
-<ul>
-<li>/usr/local/bin/brew-notifier - <i>Location for the script</i></li>
-<li>~/Library/LaunchAgents/com.tb.brew-notifier.plist - <i>launchd plist that runs every 18 minutes</i></li>
-</ul>
+**File descriptions and default locations:**
+
+- /usr/local/bin/brew-notifier; _Location for the script_
+- ~/Library/LaunchAgents/com.tb.brew-notifier.plist; _launchd plist that runs every 18 minutes_
